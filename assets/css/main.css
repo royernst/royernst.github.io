@@ -1642,7 +1642,7 @@
 
 	hr {
 		border: 0;
-		border-bottom: solid 2px #f4f4f4;
+		border-bottom: solid 2px #2374ff;
 		margin: 2.25em 0;
 	}
 
@@ -2025,6 +2025,7 @@
 		}
 
 			.image.avatar img {
+                border: 7px double white;
 				border-radius: 100%;
 				display: block;
 				width: 100%;
@@ -2058,7 +2059,7 @@
 		}
 
 			ul.alt li {
-				border-top: solid 2px #f4f4f4;
+				border-top: solid 2px #2374ff;
 				padding: 0.5em 0;
 			}
 
@@ -2094,7 +2095,7 @@
 				ul.feature-icons li:before {
 					background: #000;
 					border-radius: 100%;
-					color: #87240F;
+					color: #2374ff;
 					display: block;
 					height: 2.5em;
 					left: 0;
@@ -2208,7 +2209,7 @@
 	}
 
 		table tbody tr {
-			border: solid 2px #f4f4f4;
+			border: solid 2px #2374ff;
 			border-left: 0;
 			border-right: 0;
 		}
@@ -2280,7 +2281,7 @@
 		background-color: #989898;
 		border-radius: 5px;
 		border: 0;
-		color: #87240F !important;
+		color: #000 !important;
 		cursor: pointer;
 		display: inline-block;
 		font-weight: 700;
@@ -2357,7 +2358,7 @@
 			input[type="reset"].alt:hover,
 			input[type="button"].alt:hover,
 			.button.alt:hover {
-				background-color: #f4f4f4;
+				background-color: #2374ff;
 				color: #777 !important;
 			}
 
@@ -2414,7 +2415,7 @@
 /* Features */
 
 	.features article {
-		border-top: solid 3px #f4f4f4;
+		border-top: solid 3px #2374ff;
 		margin-bottom: 2.25em;
 		padding-top: 2.25em;
 	}
@@ -2462,7 +2463,7 @@
 		-ms-justify-content: space-between;
 		justify-content: space-between;
 		background: #000;
-		color: #87240F;
+		color: #2374ff;
 		height: 100%;
 		overflow-y: auto;
 		position: fixed;
@@ -2473,19 +2474,19 @@
 	}
 
 		#header h1, #header h2, #header h3, #header h4, #header h5, #header h6 {
-			color: #87240F;
+			color: #2374ff;
 		}
 
 			#header h1 a, #header h2 a, #header h3 a, #header h4 a, #header h5 a, #header h6 a {
-				color: #87240F;
+				color: #2374ff;
 			}
 
 		#header header p {
-			color: #87240F;
+			color: #2374ff;
 		}
 
 		#header a {
-			color: #87240F;
+			color: #2374ff;
 		}
 
 			#header a:hover {
@@ -2503,7 +2504,7 @@
 			#header > header .avatar {
 				display: block;
 				margin: 0 auto 2.25em auto;
-				width: 8em;
+				width: 10em;
 			}
 
 			#header > header h1 {
@@ -2512,7 +2513,7 @@
 			}
 
 			#header > header p {
-				color: #87240F;
+				color: #2374ff;
 				font-style: italic;
 				margin: 1em 0 0 0;
 			}
@@ -2561,7 +2562,7 @@
 						-ms-transition: none;
 						transition: none;
 						border: 0;
-						color: #87240F !important;
+						color: #2374ff !important;
 						display: block;
 						padding: 0.85em 0;
 						text-decoration: none;
@@ -2586,7 +2587,7 @@
 /* Main */
 
 	#main > section {
-		border-top: solid 6px #f4f4f4;
+		border-top: solid 6px #000;
 	}
 
 		#main > section > .container {
@@ -2599,7 +2600,7 @@
 
 /* One */
 
-	#one:before {
+	/*#one:before {
 		background-image: url("../../images/banner.jpg");
 		background-position: top right;
 		background-repeat: no-repeat;
@@ -2608,7 +2609,7 @@
 		display: block;
 		height: 15em;
 		width: 100%;
-	}
+	}*/
 
 /* Footer */
 
@@ -2849,7 +2850,7 @@
 
 					#titleBar .toggle:before {
 						background: #000;
-						color: #87240F;
+						color: #2374ff;
 						content: '\f0c9';
 						display: block;
 						font-size: 18px;
