@@ -1,0 +1,11 @@
+﻿.contact-footer,
+.contact-footer h4 {
+    margin: auto;
+    text-align: center;
+    color: #2374EF;
+}
+
+.major > h2,
+#logo {
+    font-family: 'Ubuntu', sans-serif;
+}
